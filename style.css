@@ -855,18 +855,19 @@ hr {
     display: block;
   }
   nav #nav-list ul {
-    width: 100px;
+    width: 100%;
     margin: auto;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
   nav #nav-list ul li {
-    width: 100%;
+    width: 20%;
     height: auto;
     display: block;
     font-size: 18px;
   }
   nav #nav-list ul li a {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   header div h1 {
@@ -943,12 +944,30 @@ hr {
   #container-body #care-solution .solution .solution-contai .solution-item p {
     font-size: 14px;
   }
+  #container-body #enjoy-tea .tea {
+    display: block;
+    height: auto;
+    border: 3px solid orange;
+  }
+  #container-body #enjoy-tea .tea .tea-text {
+    width: 95%;
+    margin: auto;
+  }
   #container-body #enjoy-tea .tea .tea-text h1 {
     font-size: 14px;
-    margin-top: 100px;
+    margin-top: 20px;
   }
   #container-body #enjoy-tea .tea .tea-text p {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  #container-body #enjoy-tea .tea img {
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
   }
   #container-body #feedback .feedback-contai {
     width: 80%;
